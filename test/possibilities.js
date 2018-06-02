@@ -156,7 +156,7 @@ tests['angle possibilities'] = function() {
 
 tests['charge possibilities'] = function() {
   var actual = convert().possibilities('charge')
-    , expected = [ 'c', 'mC', 'μC', 'nC', 'pC'];
+    , expected = [ 'C', 'mC', 'μC', 'nC', 'pC'];
   assert.deepEqual(actual.sort(), expected.sort());
 };
 
@@ -168,7 +168,7 @@ tests['force possibilities'] = function() {
 
 tests['acceleration possibilities'] = function() {
   var actual = convert().possibilities('acceleration')
-    , expected = [ 'g-force', 'm/s2'];
+    , expected = [ 'g', 'm/s2'];
   assert.deepEqual(actual.sort(), expected.sort());
 };
 
@@ -193,6 +193,7 @@ tests['all possibilities'] = function () {
       , 'arcsec'
       , 'B'
       , 'C'
+      , 'C'
       , 'F'
       , 'R'
       , 'GB'
@@ -213,7 +214,6 @@ tests['all possibilities'] = function () {
       , 'ac'
       , 'b'
       , 'bar'
-      , 'c'
       , 'cl'
       , 'cl/s'
       , 'cm'
@@ -244,7 +244,7 @@ tests['all possibilities'] = function () {
       , 'ft3/min'
       , 'ft3/s'
       , 'g'
-      , 'g-force'
+      , 'g'
       , 'gal'
       , 'gal/h'
       , 'gal/min'

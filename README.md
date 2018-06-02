@@ -350,7 +350,7 @@ Supported Units
 * arcsec
 
 ### Charge
-* c
+* C
 * mC
 * μC
 * nC
@@ -362,7 +362,7 @@ Supported Units
 * lbf
 
 ### Acceleration
-* g (g-force)
+* g
 * m/s2
 
 ### Torque
