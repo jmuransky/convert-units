@@ -333,6 +333,7 @@ tests['all possibilities'] = function () {
       , 'msk'
       , 'mt'
       , 'mu'
+      , 'mε'
       , 'nC'
       , 'mHz'
       , 'MHz'
@@ -391,6 +392,8 @@ tests['all possibilities'] = function () {
       , 'yd3/min'
       , 'yd3/s'
       , 'year'
+      , 'µε'
+      , 'ε'
       , 'μC'
   ];
 
